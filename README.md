@@ -15,7 +15,7 @@ b. If both players have hands in same category then it is a tie.
 c. In this game the Card class ranks Ace as the lowest card in a suit.  
 
 
-Files:
+Files:  
 i. Cards.py defines Card and Deck classes.  
 ii. cardsDemo.py illustrates how to use Card and Deck classes.  
 iii. main.py is responsible for the main function where player's cards and community cards are displayed. It calls the function from categorycheck.py to find each player's respective winning category. Based on the rank of the categories, one player is deemed winner and the winning combination is outputted.   
