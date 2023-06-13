@@ -20,3 +20,11 @@ ii. cardsDemo.py illustrates how to use Card and Deck classes.
 iii. main.py is responsible for the main function where player's cards and community cards are displayed. It calls the function from categorycheck.py to find each player's respective winning category. Based on the rank of the categories, one player is deemed winner and the winning combination is outputted.
 iv. categorycheck.py lists all the categories and functions to check if a player has a winning category and returns respective winning combinations.
 
+Sample output:
+Community cards:  [3c, Qh, 3s, Ah, 5d]
+Player 1 cards:  [Kc, 6s]
+Player 2 cards:  [4h, 5h]
+Player 2 wins
+The winning category is:  Two Pair
+The winning combination is: [5d, 5h, 3c, 3s]
+Number of cards left in the deck: 43
