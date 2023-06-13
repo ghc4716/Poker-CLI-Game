@@ -9,22 +9,23 @@ The rules and procedure of the game are as follows:
 
 Categories in order from lowest to highest are: 1 pair, 2 pair, 3 of a kind, flush, Straight, Full house, 4 of a kind, Straight Flush.
 
-To note:
-a. Win is based solely of the rank of the category and not player's hand value.
-b. If both players have hands in same category then it is a tie. 
-c. In this game the Card class ranks Ace as the lowest card in a suit.
+To note:  
+a. Win is based solely of the rank of the category and not player's hand value.  
+b. If both players have hands in same category then it is a tie.  
+c. In this game the Card class ranks Ace as the lowest card in a suit.  
+
 
 Files:
-i. Cards.py defines Card and Deck classes.
-ii. cardsDemo.py illustrates how to use Card and Deck classes.
-iii. main.py is responsible for the main function where player's cards and community cards are displayed. It calls the function from categorycheck.py to find each player's respective winning category. Based on the rank of the categories, one player is deemed winner and the winning combination is outputted.
+i. Cards.py defines Card and Deck classes.  
+ii. cardsDemo.py illustrates how to use Card and Deck classes.  
+iii. main.py is responsible for the main function where player's cards and community cards are displayed. It calls the function from categorycheck.py to find each player's respective winning category. Based on the rank of the categories, one player is deemed winner and the winning combination is outputted.   
 iv. categorycheck.py lists all the categories and functions to check if a player has a winning category and returns respective winning combinations.
 
-Sample output:
-Community cards:  [3c, Qh, 3s, Ah, 5d]
-Player 1 cards:  [Kc, 6s]
-Player 2 cards:  [4h, 5h]
-Player 2 wins
-The winning category is:  Two Pair
-The winning combination is: [5d, 5h, 3c, 3s]
-Number of cards left in the deck: 43
+Sample output:  
+Community cards:  [3c, Qh, 3s, Ah, 5d]  
+Player 1 cards:  [Kc, 6s]  
+Player 2 cards:  [4h, 5h]  
+Player 2 wins  
+The winning category is:  Two Pair  
+The winning combination is: [5d, 5h, 3c, 3s]  
+Number of cards left in the deck: 43  
