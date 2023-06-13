@@ -65,11 +65,11 @@ def hand():
 
 #asks player if they want to play another as long as cards in deck are greater than 9
 hand()
-prompt = "Yes"
-while deck.cards_count() > 9 and prompt == "Yes":
+answers=["Yes","yes","y","Y"] 
+prompt="Y"
+while deck.cards_count() > 9 and prompt in answers:
     prompt=input("Do you want to play another hand? Y/N: ")
-    if prompt == "Yes":
+    if prompt in answers:
          hand()
     else:
          break
-
